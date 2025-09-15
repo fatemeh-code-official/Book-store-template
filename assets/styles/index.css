@@ -1,0 +1,30 @@
+/*Top header*/
+.top_header{
+    height: 100px;
+    border-bottom: 2px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Registeration*/
+.top_header .register img{
+    height: 60px;
+}
+/*Menu*/
+.top_header .menu ul li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 25px;
+}
+/*Menu item's color*/
+.top_header .menu ul li a:link,
+.top_header .menu ul li a:visited ,
+.top_header .menu ul li a:hover,
+.top_header .menu ul li a:active{
+    color: #000;
+}
+/*Scial media icons*/
+.top_header .social_medias img{
+    height: 50px;
+    margin-right: 25px;
+}
