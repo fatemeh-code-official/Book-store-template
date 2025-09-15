@@ -17,6 +17,10 @@
     margin: 0 auto;
     padding: 1% 0;
 }
+/*Elements default style*/
 a{
     text-decoration: none;
+}
+ul{
+    list-style-type: none;
 }
