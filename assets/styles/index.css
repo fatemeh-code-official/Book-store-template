@@ -1,3 +1,12 @@
+/*Root*/
+:root{
+    --clr-white:#F5F5F5;
+    --clr-black:#2D2D2D;
+    --clr-blue:#4A90A4;
+    --clr-brown:#C08457;
+    --clr-orange:#E6B325;
+    --transition:all 0.7s ease-in-out;
+}
 /*Header*/
 header{
     background-image: url(../images/header-background.jpg);
