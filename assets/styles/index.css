@@ -1,3 +1,13 @@
+/*Header*/
+header{
+    background-image: url(../images/header-background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    height: 700px;
+}
 /*Top header*/
 .top_header{
     height: 100px;
