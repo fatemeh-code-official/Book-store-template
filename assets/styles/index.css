@@ -6,6 +6,7 @@
     --clr-brown:#C08457;
     --clr-orange:#E6B325;
     --transition:all 0.4s ease-in-out;
+    scroll-behavior: smooth;
 }
 /*Header*/
 header{
@@ -13,7 +14,7 @@ header{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.45);
     background-blend-mode: multiply;
     height: 700px;
 }
@@ -54,4 +55,64 @@ header{
     -moz-transition: var(--transition);
     -ms-transition: var(--transition);
     -o-transition: var(--transition);
+}
+/*Middle header*/
+.middle_header{
+    display: flex;
+    flex-direction: column;
+}
+/*Titles*/
+.titles{
+    margin-top: 5%;
+    text-align: center;  
+}
+.titles h1, .titles h2{
+    margin-right: 50%;
+}
+.titles h1{
+    font-size: 3.5rem;
+    color: var(--clr-white);
+}
+.titles h2{
+    font-size: 2.5rem;
+    color: var(--clr-black);
+}
+/*Searchbox*/
+.middle_header .searchbox{
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 50%;
+}
+.middle_header .searchbox form{
+    position: relative;
+}
+.middle_header .searchbox form input[type="text"]{
+    background:none;
+    width: 60%;
+    padding: 10px 15px;
+    border: 2px solid var(--clr-black);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.middle_header .searchbox form input[type="text"]::placeholder{
+    color: #000;
+}
+.middle_header .searchbox form input[type="text"]:focus,
+.middle_header .searchbox form input[type="text"]:hover{
+    outline: none;
+    border: 2px solid var(--clr-white);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+.middle_header .searchbox form svg{
+    position: absolute;
+    top: 8px;
+    left: 140px;
+    color: var(--clr-black);
 }
